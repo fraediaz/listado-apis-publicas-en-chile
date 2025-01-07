@@ -21,16 +21,11 @@ Seguir el siguiente formato:
 
 - [API Biblioteca del Congreso](http://www.leychile.cl/Consulta/legislacion_abierta_web_service) Leyes, Proyectos de Ley y Normas.
 - [API Mercado Público](http://api.mercadopublico.cl/): Todo lo que necesitas es estar conectado con los servicios de información disponibles en api.mercadopublico.cl para crear notificaciones y estar siempre actualizado de los negocios con el Estado.
-- ~[API División Político Administrativa](http://apis.digital.gob.cl/dpa/): Permite obtener Regiones, Provincias y Comunas.~ [DEPRECATED]
 - [API Portal ChileAtiende](https://www.chileatiende.gob.cl/desarrolladores): API del Portal de Servicios del Estado - ChileAtiende.
 - [Plataforma Ley de Lobby](https://www.leylobby.gob.cl/docs.html) La API de la plataforma Ley de Lobby implementada para el Gobierno de Chile, es la interfaz para programadores que permite integrar los contenidos de este portal en tu sitio web.
-- ~[API Energía Abierta - Comisión Nacional de Energía](http://datos.energiaabierta.cl/developers/): API permite el acceso directo a los datos publicados en el sitio de datos abiertos de Comision Nacional de Energía.~ [DEPRECATED]
 - [API Comisión Nacional de Energía](http://api.cne.cl/): Provee el público acceso a la información que se genera dentro de la CNE considerando sus distintos sistemas de información. Usado en [Bencina en línea](http://www.bencinaenlinea.cl/)
-- ~[API Datos Peñalolen - Municipalidad de Peñalolen](http://datos.penalolen.cl/developers/): API que permite el acceso directo a los datos publicados en el sitio de datos abiertos de Peñalolén.~ [DEPRECATED]
-- ~[API Datos Providencia - Municipalidad de Providencia](http://datos.providencia.cl/developers/): API que permite el acceso directo a los datos publicados en el sitio de datos abiertos de la Municipalidad de Providencia.~ [DEPRECATED]
 - [Compras Transparentes](http://www.comprastransparentes.cl/api): Desarrollada en Falcon y Python, contiene todos los detalles de la API de Compras Transparentes que permite explorar las transacciones entre el Estado de Chile y las empresas, las cuales se efectúan a través de la plataforma de compras públicas.
 - [ChileCompra](http://datosabiertos.chilecompra.cl/developers/): La API permite el acceso directo a los datos publicados en el portal de datos abiertos de ChileCompra desde tu aplicación. Usa una interfaz RESTful y retorna los datos en formato JSON. Las vistas invocadas a través de la API proveen un acceso estándar online a datos contenidos en páginas HTML, XLS, CSV y otros archivos similares disponibles en Internet.
-- ~[Portal de Datos Públicos](http://es.wiki.junar.com/index.php/Recursos_datos_gob_cl_API): La versión actual de la API es 1.0. La mayoría de los métodos retorna sus resultados en formato JSON, excepto el metodo invoke donde puede elegirse entre varios formatos de salida. Cada key obtenida para la API del Portal de Datos Públicos del Gobierno de Chile está limitada a 10.000 reqs/mes y 1 req/seg.~ [DEPRECATED]
 - [Seguimiento de pedidos de Correos de Chile](https://github.com/josemontesp/correos-chile-npm): Módulo npm para hacer el seguimiento de uno o más pedidos de Correos de Chile.
 - [Correos Chile Tracking API](https://www.aftership.com/docs/correos-chile-tracking-api): AfterShip Restful JSON APIs and webhooks allow developers to add Correos Chile tracking function easily. Support APIs Client Libraries for PHP, Java, Node.js, Python, .NET, Ruby.
 - [Correos Chile API](https://www.easypost.com/correos-chile-api.html): EasyPost is a multi-carrier shipping solution. The EasyPost API is one integration point for 60+ carriers, including Correos Chile.
@@ -42,9 +37,7 @@ Seguir el siguiente formato:
 - [Archivo Transmisiones Convención Constitucional](https://convencion.tv/api/media?limit=0): API del sitio de streaming de la Convención Constitucional. Se puede usar el parámetro `limit=0` para obtener todos los videos.
 
 
-### Transporte
 
-- ~[BIP](https://xor.cl/api/red/): Get your BIP balance, via xor.cl API.~ [DEPRECATED]
 
 
 ### Economía
@@ -74,7 +67,6 @@ Seguir el siguiente formato:
 ### Sistemas de Alerta
 
 - [Sismos Chile](https://api.gael.cloud/general/public/sismos): Últimos sismos en Chile.
-- ~[API Sismología U. de Chile.](https://e.xor.cl/posts/apis/#api-sismolog%C3%ADa-u-de-chile): Scrapping de la página del Centro Sismológico Nacional de la U. de Chile, que permite obtener en un formato amigable información de los sismos de cualquier fecha.~ [DEPRECATED]
 - [Chile Alerta - Api](https://github.com/TBMSP/ChileAlertaApi): Boletines de Tsunami en Chile, Últimos sismos en Chile y Últimos sismos en países específicos y el Mundo. Diferentes fuentes de información además de software gratuito en el sitio web de servicios de la App Chile Alerta.
 - [api-sismologia-chile](https://api-sismologia-chile.herokuapp.com/): Últimos 15 sismos en Chile con sus respectivos mapas. Próximamente acceso a registros anteriores.
 
@@ -82,12 +74,9 @@ Seguir el siguiente formato:
 ### Mapas / Geocodificación
 
 - [API Planos.cl](http://apiplanos.amarillas.cl/): API Planos.cl de hibu está conformada por clases desarrolladas en lenguaje Javascript.
-- ~[API de Mapas y Geocodificación de Mapcity](http://api.mapcity.com/docs/tutorial.php): La API de MapCity es una extensión de Openlayers y ExtCore. Los tipos básicos de la API y los controles son derivados de los tipos y controles de OpenLayers, por lo tanto la mayoría de las funciones de OpenLayers aplican a las funciones de la API.~ [DEPRECATED]
 
 
-### Entretención y ocio
 
-- ~[Horóscopo Yolanda Sultana](https://e.xor.cl/posts/apis/#t%C3%ADa-yoli-as-a-service-tyaas): Obtiene el horóscopo del día desde [Login.cl](http://www.login.cl/). No hay forma de obtener horóscopos anteriores, porque es de mala suerte.~ [DEPRECATED]
 
 
 ### Clima
@@ -96,11 +85,8 @@ Seguir el siguiente formato:
 - [JSON Calidad del Aire Chile](https://sinca.mma.gob.cl/index.php/json/listadomapa2k19/): El Sistema de Información Nacional de Calidad del Aire provee este JSON donde muestran información en tiempo real de las estaciones de todo el país.
 
 
-### Otros
--  ~[Rutificador](https://rutificador.porsilapongo.cl/):	Pequeño servicio REST que nos permite obtener los datos de una persona buscando a través de su nombre o rut.~ [DEPRECATED]
--  ~[RAE](https://rae.porsilapongo.cl/): Api-REST que extrae informacion desde la RAE (Real Academia española) el significado de una palabra.~ [DEPRECATED]
--  ~[ByPassCors](https://bypasscors.porsilapongo.cl/): Crea una solicitud http la cual incluye los encabezados CORS en la respuesta con el fin de bypasear y/o saltar los bloqueos de extraccion de datos.~ [DEPRECATED]
+
 
 - [🇨🇱 Chilean Birds 🐦 ](https://aves.ninjas.cl/api/birds): API con información sobre Aves de Chile usando datos de [Buscaves.cl](http://buscaves.cl/).
--  ~[LibreAPI](https://libreapi.cl): LibreAPI es una API multipropósito, gratuita y de código abierto que ofrece busqueda de RUTs, información meteorológica, conversión de divisas, datos económicos y más. Docs [EN](http://docs.libreapi.cl/en/)/[ES](http://docs.libreapi.cl/es/).~ [DEPRECATED]
+-  ~[LibreAPI](https://libreapi.cl)
 - [🐶🐇 Plataforma de adopción animal 🐾 Huachitos](https://huachitos.cl/docs):  API abierta con listado de los animales disponibles para adopción, encontrados o perdidos y los equipos públicos en la plataforma, ofreciendo distintos endpoints por región, comuna o equipo/fundación.
